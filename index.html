@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#volunteering">Volunteering</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1 data-aos="fade-down">Welcome to My Portfolio</h1>
+    <p data-aos="fade-up">Showcasing my skills, projects, and passion for technology and innovation</p>
+    <a href="#projects" class="btn" data-aos="zoom-in">Explore Projects</a>
+  </section>
+
+  <!-- About Section -->
+<!-- About Section -->
+<section id="about">
+  <h2 data-aos="fade-right">About Me</h2>
+  <div class="about-content">
+    <div class="about-text" data-aos="fade-left">
+      <p>
+        I am a computer science student at the American University of Beirut and a proud USAID HES scholar. I enjoy diving into the world of software development, where I’ve had the opportunity to work on different projects and create seamless user experiences. I am always passionate about learning new technologies and solving real-world problems through innovative solutions.
+      </p>
+      <p>
+        Beyond coding, I find fulfillment in mentoring and helping others grow. I’m always looking to connect with professionals who share a vision for using technology to make a positive impact.
+      </p>
+      <button class="download-cv-btn" onclick="window.location.href='CV.pdf';">Download CV</button>
+    </div>
+    <div class="about-image" data-aos="fade-right">
+      <img src="profile.png" alt="Profile">
+    </div>
+  </div>
+</section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-content">
+      <!-- Left Column: Education Details -->
+      <div class="education-details">
+        <div class="education-card">
+          <h3>American University of Beirut</h3>
+          <p>Bachelor’s Degree in Computer Science | 2022-2025</p>
+          <p><strong>Cumulative GPA:</strong> 3.94/4</p>
+        </div>
+        <div class="education-card">
+          <h3>Lycée Hanaway School</h3>
+          <p>Lebanese Baccalaureate in Life Sciences | 2008-2022</p>
+          <p><strong>Grade:</strong> 18.61/20</p>
+          <p><strong>Rank:</strong> 16th nationwide in the Lebanese Official Exams</p>
+        </div>
+      </div>
+  
+      <!-- Right Column: Photo -->
+      <div class="education-photo">
+        <img src="./edu.jpg" alt="Your Name">
+      </div>
+    </div>
+  </section>
+
+<!-- Experience Section -->
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="experience-container">
+    <div class="experience-card">
+      <h3>Amazon - Software Engineer (Apprenticeship)</h3>
+      <p><strong>May 2024 – Aug 2024</strong></p>
+      <ul>
+        <li>Mentored by 2 senior Amazon engineers, gaining valuable insights.</li>
+        <li>Developed a platform to connect food donors with receivers in Lebanon.</li>
+        <li>Implemented secure user authentication, AI-driven food quality detection, and real-time donation feed.</li>
+      </ul>
+    </div>
+    <div class="experience-card">
+      <h3>LebNet Tech Fellowship Program</h3>
+      <p><strong>Dec 2024 – Present</strong></p>
+      <ul>
+        <li>Participating in a 5-month program to enhance tech skills and network.</li>
+        <li>Improved coding, project management, and leadership abilities through mentorship.</li>
+      </ul>
+    </div>
+    <div class="experience-card">
+      <h3>AUB Career Fair - Event Coordinator</h3>
+      <p><strong>March 2023</strong></p>
+      <ul>
+        <li>Coordinated logistics for AUB's Career Fair 2023.</li>
+        <li>Helped students and alumni connect with companies like Deloitte and Delta Partners.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <!-- Volunteering Section -->
+<!-- Volunteering Section -->
+<!-- Volunteering Section --> 
+<section id="volunteering">
+  <h2>Volunteering</h2>
+
+  <div class="volunteering-container">
+    <div class="volunteering-card">
+      <img src="./volunteering/mmkn.jpeg" alt="MMKN NGO">
+      <h3>MMKN NGO</h3>
+      <p>Teaching Grade 9 students online mathematics.</p>
+    </div>
+    <div class="volunteering-card">
+      <img src="./volunteering/foodblessed.jpg" alt="Food Blessed NGO">
+      <h3>Food Blessed NGO</h3>
+      <p>Baking and decorating cakes for Mother's Day celebration.</p>
+    </div>
+    <div class="volunteering-card">
+      <img src="./volunteering/hemodyalisis.jpeg" alt="Basma NGO">
+      <h3>
+        Companion in the Hemodialysis Unit</h3>
+      <p>Spent time conversing with elderly patients to provide companionship and support during their kidney dialysis sessions at AUBMC</p>
+    </div>
+    <div class="volunteering-card">
+      <img src="./volunteering/swi.jpg" alt="Basma NGO">
+      <h3>The Social Welfare Institutions</h3>
+      <p>Provided educational support and companionship to children at the orphanage</p>
+    </div>
+    <div class="volunteering-card">
+      <img src="./volunteering/ynd.jpeg" alt="Basma NGO">
+      <h3>Youth National Development</h3>
+      <p>Spreading awareness about food waste and sustainability at IC School for Food Awareness Day
+      </p>
+    </div>
+    <div class="volunteering-card">
+      <img src="./volunteering/nextstep.jpeg" alt="Next Step">
+      <h3>Next Step Program</h3>
+      <p>Took shifts to stand with students with special needs, assisting in selling sweets and artwork crafted by them</p>
+    </div>
+    <div class="volunteering-card">
+      <img src="./volunteering/pediatrics.jpeg" alt="Pediatrics NGO">
+      <h3>HAVEN</h3>
+      <p>Engaged young patients in creative activities such as coloring and play to bring joy and comfort during their hospital stay</p>
+    </div>
+  </div>
+</section>
+
+ <!-- Projects Section -->
+ <section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <div class="project" onclick="showProjectDetails('project1')">
+      <h3>AUBIFY</h3>
+      <img src="./AUBIFYPICS/profile.jpg" alt="Project 1"> <!-- Image added for preview -->
+    </div>
+    <div class="project" onclick="showProjectDetails('project2')">
+      <h3>MEALMISSION</h3>
+      <img src="./MealMissionpics/profile.jpg" alt="Project 2"> <!-- Image added for preview -->
+    </div>
+    <div class="project" onclick="showProjectDetails('project3')">
+      <h3>METS</h3>
+      <img src="./METS/profile.png" alt="Project 1"> <!-- Image added for preview -->
+    </div>
+
+    <div class="project" onclick="showProjectDetails('project4')">
+      <h3>Maze Game</h3>
+      <img src="./mazeprofilr.jpg" alt="Project 4"> <!-- Image added for preview -->
+    </div>
+
+    <div class="project" onclick="showProjectDetails('project5')">
+      <h3>Flower image classifier</h3>
+      <img src="./flowersclassifier.png" alt="Project 5"> <!-- Image added for preview -->
+    </div>
+
+    <div class="project" onclick="showProjectDetails('project6')">
+      <h3>medical language model</h3>
+      <img src="./medicalmodel/medicalprofile.png" alt="Project 6"> <!-- Image added for preview -->
+    </div>
+  </div>
+</section>
+
+<!-- Project Details Section -->
+<section id="project-details">
+  <div id="project1" class="project-detail" style="display: none;">
+    <h3>Social Media Platform</h3>
+    <p>AUBify is a platform developed by a team of four to enhance communication and engagement within the AUB community. It provides a safe space for students to connect, share information, and stay updated on university events and news, fostering a sense of belonging and unity.</p>
+    <div class="screenshots">
+      <figure>
+          <img src="./AUBIFYPICS/landing.png" alt="Screenshot 1"> <!-- Ensure these paths are correct -->
+          <figcaption>Landing Page</figcaption>
+        </figure>
+        <figure>
+          <img src="./AUBIFYPICS/home.png" alt="Screenshot 2">
+          <figcaption>Home Page</figcaption>
+        </figure>
+        <figure>
+          <img src="./AUBIFYPICS/addpost.png" alt="Screenshot 3">
+          <figcaption>Add Post Feature</figcaption>
+        </figure>
+        <figure>
+          <img src="./AUBIFYPICS/friendrequests.png" alt="Screenshot 4">
+          <figcaption>Friend Requests</figcaption>
+        </figure>
+        <figure>
+          <img src="./AUBIFYPICS/chat.png" alt="Screenshot 5">
+          <figcaption>Chat Interface</figcaption>
+        </figure>
+        <figure>
+          <img src="./AUBIFYPICS/admin.png" alt="Screenshot 6">
+          <figcaption>Admin Dashboard</figcaption>
+        </figure>
+    </div>
+  </div>
+  <div id="project2" class="project-detail" style="display: none;">
+    <h3>MealMission</h3>
+    <p>MealMission offers an innovative platform designed to connect potential food donors with receivers, providing a streamlined and efficient solution to tackle the issues of food waste and hunger. At its core, MealMission facilitates the donation process, ensuring that surplus food reaches those who need it most while minimizing waste.</p>
+    <div class="screenshots">
+      <figure>
+          <img src="./MealMissionpics/landing.png" alt="Screenshot 1"> <!-- Ensure these paths are correct -->
+          <figcaption>Landing Page</figcaption>
+        </figure>
+        <figure>
+          <img src="./MealMissionpics/Aboutus.png" alt="Screenshot 2">
+          <figcaption>About us</figcaption>
+        </figure>
+        <figure>
+          <img src="./MealMissionpics/homepagesections.png" alt="Screenshot 3">
+          <figcaption>sections from home page</figcaption>
+        </figure>
+        <figure>
+          <img src="./MealMissionpics/donationform.png" alt="Screenshot 4">
+          <figcaption>Donation Form</figcaption>
+        </figure>
+        <figure>
+          <img src="./MealMissionpics/donationfeed.png" alt="Screenshot 5">
+          <figcaption>Donations Feed</figcaption>
+        </figure>
+        <figure>
+          <img src="./MealMissionpics/viewstatus.png" alt="Screenshot 6">
+          <figcaption>View Status</figcaption>
+        </figure>
+    </div>
+  </div>
+
+  <div id="project3" class="project-detail" style="display: none;">
+    <h3>MiddleEast Traveling System(METS)</h3>
+    <p>This project focused on creating a database for a Middle East Traveling System to streamline travel planning and management. The system helps tourists explore various destinations, book trips, and engage in activities tailored to their interests. It also supports guides in organizing trips and provides detailed information about countries, cities, local events, and expected costs. 
+
+      Users can access trip schedules, activity details, and reviews, making it easier to plan enjoyable and well-informed travel experiences</p>
+    <div class="screenshots">
+      <figure>
+          <img src="./METS/erdiagram.png" alt="Screenshot 1"> <!-- Ensure these paths are correct -->
+          <figcaption>This is the Entity-Relationship Diagram (ERD) showcasing entities like TOURIST, TRIP, and CITY, along with their relationships and attributes, designed to manage travel and guide interactions</figcaption>
+        </figure>
+        <figure>
+          <img src="./METS/Oracledatamodeler.png" alt="Screenshot 2">
+          <figcaption>we used Oracle SQL Data Modeler (version datamodeler-23.1.0.087.0806-x64.zip) from Oracle. This tool helps us create our database diagrams using Crow's Foot notation. We can then convert these diagrams into a relational model automatically.</figcaption>
+        </figure>
+        
+    </div>
+    <div id="project3-video" style="display: none;">
+      <video width="100%" controls>
+        <source src="./metsdemo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <button id="showProject3Btn" class="btn show-demo-btn">Watch demo</button>
+  </div>
+
+  <div id="project4" class="project-detail" style="display: none;">
+    <h3>Maze Game</h3>
+    <p>This C++ program simulates a maze game where mazes are dynamically generated using Prim’s and paths are found using the A* search algorithm. 
+
+
+      Users can input maze dimensions and start/end coordinates to find a path through the maze, with the program outputting whether a path was found or not
+      </p>
+   
+    <div id="project4-video" style="display: none;">
+      <video width="100%" controls>
+        <source src="./mazedemo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <button id="showProject4Btn" class="btn show-demo-btn">Watch demo</button>
+  </div>
+
+  <div id="project5" class="project-detail" style="display: none;">
+    <h3>Flower image classifier</h3>
+    <p> Developed a custom image classifier using PyTorch and pre-trained architectures like VGG16 and ResNet18.
+      -Applied Transfer Learning for feature extraction.
+      -Enhanced data quality through Data Preprocessing & Augmentation.
+      -Focused on Model Training & Evaluation and deployment.</p>
+      <a href="https://drive.google.com/uc?export=download&id=1ZjcWiNaw1Hm_8DdF8sN6HPy6Qgv2R7NH
+      " download class="show-code-btn">Download Code</a>
+  </div>
+  <div id="project6" class="project-detail" style="display: none;">
+    <h3>Medical language model</h3>
+    <p> Developed a prototype for a domain-specific language model by fine-tuning the Meta Llama 2 7B foundation model using Amazon SageMaker and other AWS tools. The model was trained on a copyright-free medical dataset to generate accurate and contextually relevant responses, enabling applications such as medical chatbots, internal knowledge systems, and automated content creation. This project helped me improve my skills in machine learning and natural language processing while gaining practical experience with AWS tools to address challenges in the healthcare domain.</p>
+    <div class="screenshots">
+    <figure>
+      <img src="./medicalmodel/training.jpg" alt="Screenshot 1"> <!-- Ensure these paths are correct -->
+      <figcaption>training job completed</figcaption>
+    </figure>
+    <figure>
+      <img src="./medicalmodel/testing.jpg" alt="Screenshot 1"> <!-- Ensure these paths are correct -->
+      <figcaption>testing the model</figcaption>
+    </figure>
+        
+    </div>
+  </div>
+
+</section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    
+    <!-- Programming Languages -->
+    <div class="category">
+      <h3>Programming Languages</h3>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-java"></i>
+          <h3>Java</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-cuttlefish"></i>
+          <h3>C++</h3>
+        </div>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <h3>SQL</h3>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Frontend Development -->
+    <div class="category">
+      <h3>Frontend Development</h3>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <h3>jQuery</h3>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Backend Frameworks / Libraries -->
+    <div class="category">
+      <h3>Backend Frameworks / Libraries</h3>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fab fa-node"></i>
+          <h3>Node.js</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-node"></i>
+          <h3>ExpressJS</h3>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Cloud Services -->
+    <div class="category">
+      <h3>Cloud Services</h3>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fab fa-aws"></i>
+          <h3>AWS Lambda</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-aws"></i>
+          <h3>Amazon SageMaker</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-aws"></i>
+          <h3>AWS S3</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-aws"></i>
+          <h3>AWS API Gateway</h3>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Database Management Systems -->
+    <div class="category">
+      <h3>Database Management Systems</h3>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <h3>MongoDB</h3>
+        </div>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <h3>MySQL</h3>
+        </div>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <h3>DynamoDB</h3>
+        </div>
+      </div>
+    </div>
+  
+    <!-- AI and Machine Learning -->
+    <div class="category">
+      <h3>AI and Machine Learning</h3>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <h3>Convolutional Neural Networks</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <h3>Generative AI Fluency</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <h3>Prompt Engineering</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <h3>LLMs</h3>
+        </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <h3>Pandas, Numpy, Matplotlib, PyTorch</h3>
+        </div>
+      </div>
+    </div>
+  
+
+ <!-- Tools -->
+<div class="category">
+  <h3>Tools</h3>
+  <div class="skills-container">
+    <div class="skill">
+      <i class="fab fa-github"></i>
+      <h3>Git/GitHub</h3>
+    </div>
+    <div class="skill">
+      <i class="fab fa-jira"></i>
+      <h3>Jira</h3>
+    </div>
+    <div class="skill">
+      <i class="fas fa-project-diagram"></i>
+      <h3>JupyterLab</h3>
+    </div>
+  </div>
+</div>
+
+  
+    <!-- Soft Skills -->
+    <div class="category">
+      <h3>Soft Skills</h3>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fas fa-users"></i>
+          <h3>Communication</h3>
+        </div>
+        <div class="skill">
+          <i class="fas fa-users"></i>
+          <h3>Teamwork</h3>
+        </div>
+        <div class="skill">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Problem-solving</h3>
+        </div>
+        <div class="skill">
+          <i class="fas fa-users-cog"></i>
+          <h3>Leadership</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Certifications Section -->
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certifications-container">
+    <div class="certification-card">
+      <h3>AI Programming with Python Nanodegree</h3>
+      <p>Udacity, fully sponsored by Amazon Web Services (AWS).</p>
+    </div>
+    <div class="certification-card">
+      <h3>Software Engineering Workshop</h3>
+      <p>Google Developer Student Clubs</p>
+    </div>
+    <div class="certification-card">
+      <h3>Introducing Generative AI with AWS</h3>
+      <p>Udacity</p>
+    </div>
+    <div class="certification-card">
+      <h3>Ethical Hacking Workshop</h3>
+      <p>Semicolon</p>
+    </div>
+    <div class="certification-card">
+      <h3>Introduction to CyberSecurity</h3>
+      <p>Cisco</p>
+    </div>
+    
+    <div class="certification-card">
+      <h3>Machine Learning for the Disciplines</h3>
+      <p>CAMS</p>
+    </div>
+  </div>
+</section>
+<!-- Awards Section -->
+<section id="awards">
+  <h2>Awards & Recognitions</h2>
+  <div class="awards-container">
+    <div class="award-card">
+      <img src="./awards/aws scholarship.jpeg" alt="AWS AI & ML Scholarship" class="award-image">
+      <h3>AWS AI & ML Scholarship</h3>
+      <p>Fully sponsored by Amazon Web Services (AWS) to attend the AI Programming with Python Nanodegree program by Udacity.</p>
+    </div>
+    <div class="award-card">
+      <img src="./awards/usaid.jpeg" alt="AWS AI & ML Scholarship" class="award-image">
+      <h3>University Scholarship Program-USAID </h3>
+      <p>The program supports the pursuit of higher education and grants full scholarships to individuals with leadership
+        potential and high academic merit</p>
+    </div>
+    <div class="award-card">
+    <img src="./awards/injaz.jpeg" alt="AWS AI & ML Scholarship" class="award-image">
+    <h3>3rd Place Winner-INJAZ Innovation Competition</h3>
+    <p>HES: Home Educational System,a project designed to support students facing educational challenges during the COVID-19 pandemic by enhancing accessibility to learning tools and resources.</p>
+  </div>
+  <div class="award-card">
+    <img src="./awards/honorlist.jpeg" alt="AWS AI & ML Scholarship" class="award-image">
+    <h3>Dean's Honor List</h3>
+    <p>Achieved placement on the Dean's Honor List for all attended semesters, recognizing outstanding academic performance and dedication to excellence</p>
+  </div>
+
+
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/Nour-Darwish" class="fab fa-github" target="_blank" aria-label="GitHub"></a>
+      <a href="https://www.linkedin.com/in/nour-darwish-5156252a5/" class="fab fa-linkedin" target="_blank" aria-label="LinkedIn"></a>
+      <a href="mailto:darwichenour8@gmail.com" class="fas fa-envelope" target="_blank" aria-label="Email"></a>
+
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
