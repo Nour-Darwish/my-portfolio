@@ -844,15 +844,24 @@ figcaption {
 
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: row; /* Stack navbar items vertically */
+    flex-direction: row; /* Keep navbar items in a row */
     align-items: center;
+    justify-content: space-evenly; /* Ensure equal spacing between navbar items */
+    padding: 10px 0;
+    background-color: black; /* Ensure the background color matches the desktop version */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s ease; /* Smooth transition for hide/show */
   }
 
   .navbar li {
-    margin: 0 0.7rem;
-    font-size: 10px;
+    margin: 0 1rem; /* Adjust margin to make sure items are spaced evenly */
+    font-size: 14px; /* Increase font size slightly for better readability */
   }
-
+  
   #skills h2 {
     font-size: 1.8rem;
   }
@@ -873,5 +882,5 @@ figcaption {
 
   .skill h3 {
     font-size: 0.8rem;
-  }
-}
+  }}
+

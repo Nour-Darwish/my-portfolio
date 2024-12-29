@@ -34,7 +34,7 @@ const navbar = document.querySelector(".navbar");
 window.addEventListener("scroll", () => {
   if (window.scrollY > lastScrollY) {
     // Scrolling down, hide navbar
-    navbar.style.top = "-60px";
+    navbar.style.top = "-60px"; // Adjust the value based on navbar height
   } else {
     // Scrolling up, show navbar
     navbar.style.top = "0";
