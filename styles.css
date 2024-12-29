@@ -594,7 +594,7 @@ figcaption {
 }
 
 @media (max-width: 768px) {
- 
+  
   .skill {
     width: 120px;
     height: 120px;
@@ -672,7 +672,11 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-
+@media (max-width: 768px) {
+  .volunteering-card {
+    width: 45%; /* Make cards take up 45% of the row on medium screens */
+  }
+}
 
 @media (max-width: 480px) {
   .volunteering-card {
@@ -840,20 +844,20 @@ figcaption {
   .navbar {
     flex-direction: row; /* Keep navbar items in a row */
     align-items: center;
-   
-    padding: 10px 0;
-    background-color: black; /* Ensure the background color matches the desktop version */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    transition: top 0.3s ease; /* Smooth transition for hide/show */
+    box-sizing: border-box
   }
+  
+  
 
   .navbar li {
-    margin: 0 0.6rem; /* Adjust margin to make sure items are spaced evenly */
-    font-size: 6px; /* Increase font size slightly for better readability */
+    margin: 0 0.5rem; /* Adjust margin to make sure items are spaced evenly */
+    font-size: 10px; /* Increase font size slightly for better readability */
+  
+    text-align: center;
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+  }
+  #hero {
+    width: 100%;
   }
   
   #skills h2 {
