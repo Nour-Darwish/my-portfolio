@@ -844,12 +844,13 @@ figcaption {
 
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column; /* Stack navbar items vertically */
+    flex-direction: row; /* Stack navbar items vertically */
     align-items: center;
   }
 
   .navbar li {
-    margin: 0.5rem 0;
+    margin: 0 0.7rem;
+    font-size: 10px;
   }
 
   #skills h2 {
