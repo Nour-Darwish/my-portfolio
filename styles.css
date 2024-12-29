@@ -10,16 +10,24 @@
     color: #333;
   }
   header {
-    background-color: black;
+   
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
     z-index: 1000;
   }
   .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     list-style: none;
+    background-color: black;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: top 0.3s ease; /* Smooth transition for hide/show */
   }
   .navbar li {
     margin: 0 1rem;
@@ -107,6 +115,26 @@
   .about-image img:hover {
     transform: scale(1.1);
   }
+
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column; /* Stack text and image vertically */
+      align-items: center; /* Center-align the content */
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  
+    .about-text {
+      text-align: center; /* Center-align the text */
+      max-width: 100%; /* Ensure text doesn't overflow */
+    }
+  
+    .about-image img {
+      width: 250px; /* Reduce image size for smaller screens */
+      height: 250px;
+      margin-top: 1rem; /* Add some space between text and image */
+    }
+  }
+  
   
   .download-cv-btn {
     display: inline-block;

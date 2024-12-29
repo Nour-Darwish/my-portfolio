@@ -27,4 +27,19 @@ document.getElementById("showProject4Btn").addEventListener("click", function() 
   // Optionally hide the button after clicking
   this.style.display = "none";
 });
+// Hide/Show Navbar on Scroll
+let lastScrollY = window.scrollY;
+const navbar = document.querySelector(".navbar");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > lastScrollY) {
+    // Scrolling down, hide navbar
+    navbar.style.top = "-60px";
+  } else {
+    // Scrolling up, show navbar
+    navbar.style.top = "0";
+  }
+  lastScrollY = window.scrollY;
+});
+
 
