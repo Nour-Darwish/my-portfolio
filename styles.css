@@ -858,8 +858,8 @@ figcaption {
   }
 
   .navbar li {
-    margin: 0 1rem; /* Adjust margin to make sure items are spaced evenly */
-    font-size: 14px; /* Increase font size slightly for better readability */
+    margin: 0 0.6rem; /* Adjust margin to make sure items are spaced evenly */
+    font-size: 6px; /* Increase font size slightly for better readability */
   }
   
   #skills h2 {
