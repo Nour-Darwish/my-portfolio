@@ -594,9 +594,7 @@ figcaption {
 }
 
 @media (max-width: 768px) {
-  .skills-container {
-    justify-content: flex-start;
-  }
+ 
   .skill {
     width: 120px;
     height: 120px;
@@ -674,11 +672,7 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
-  .volunteering-card {
-    width: 45%; /* Make cards take up 45% of the row on medium screens */
-  }
-}
+
 
 @media (max-width: 480px) {
   .volunteering-card {
@@ -846,7 +840,7 @@ figcaption {
   .navbar {
     flex-direction: row; /* Keep navbar items in a row */
     align-items: center;
-    justify-content: space-evenly; /* Ensure equal spacing between navbar items */
+   
     padding: 10px 0;
     background-color: black; /* Ensure the background color matches the desktop version */
     position: fixed;
