@@ -813,3 +813,36 @@ figcaption {
   color: #555;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: center;
+  }
+
+  .navbar li {
+    margin: 0.5rem 0;
+  }
+
+  #skills h2 {
+    font-size: 1.8rem;
+  }
+
+  .skills-container {
+    gap: 1rem;
+  }
+
+  .skill {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .skill i {
+    font-size: 2rem;
+  }
+
+  .skill h3 {
+    font-size: 0.8rem;
+  }
+}
