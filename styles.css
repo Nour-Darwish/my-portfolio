@@ -844,7 +844,7 @@ figcaption {
   .navbar {
     flex-direction: row; /* Keep navbar items in a row */
     align-items: center;
-    box-sizing: border-box
+    box-sizing: border-box;
   }
   
   
@@ -854,7 +854,7 @@ figcaption {
     font-size: 10px; /* Increase font size slightly for better readability */
   
     text-align: center;
-    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+     
   }
   #hero {
     width: 100%;
