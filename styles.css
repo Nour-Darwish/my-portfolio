@@ -882,3 +882,37 @@ figcaption {
     font-size: 0.8rem;
   }}
 
+  /* Hide hamburger by default (desktop) */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 2000;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  
+  .navbar {
+    right: -100%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    background: black;
+    flex-direction: column;
+    padding-top: 80px;
+    transition: right 0.3s ease;
+  }
+
+  .navbar.open {
+    right: 0;
+  }
+}
+
