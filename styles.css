@@ -672,7 +672,7 @@ textarea {
   margin-top: 0.6rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px), (hover: none) and (pointer: coarse) {
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -702,6 +702,11 @@ textarea {
 
   .form-row {
     flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .contact-form {
+    width: 100%;
   }
 }
 
@@ -957,7 +962,7 @@ textarea {
 }
 
 /* ========== Mobile Menu Styles ========== */
-@media (max-width: 768px) {
+@media (max-width: 900px), (hover: none) and (pointer: coarse) {
   .mobile-menu-btn {
     display: flex;
   }
@@ -1016,7 +1021,7 @@ textarea {
 }
 
 /* ========== Mobile Menu Styles ========== */
-@media (max-width: 768px) {
+@media (max-width: 900px), (hover: none) and (pointer: coarse) {
   .mobile-menu-btn {
     display: flex;
   }
