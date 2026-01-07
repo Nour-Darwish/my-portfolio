@@ -812,6 +812,32 @@ textarea {
   pointer-events: none;
 }
 
+@media (max-width: 900px), (hover: none) and (pointer: coarse) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: left;
+  }
+
+  .hero-content {
+    order: 1;
+  }
+
+  .hero-photo-wrapper {
+    order: 2;
+    justify-content: center;
+  }
+
+  .hero-actions {
+    justify-content: flex-start;
+  }
+
+  .hero-photo-card {
+    width: min(82vw, 320px);
+  }
+}
+
 .header {
   z-index: 1000;
 }
